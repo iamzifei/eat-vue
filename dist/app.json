@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/home/main",
+    "pages/counter/main",
+    "pages/index/main",
+    "pages/list/main",
+    "pages/logs/main",
+    "pages/poll/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#233238",
+    "navigationBarTitleText": " 佛系青年要吃饭",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/main",
+        "text": "首页",
+        "iconPath": "/static/images/home.png",
+        "selectedIconPath": "/static/images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/list/main",
+        "text": "历史",
+        "iconPath": "/static/images/list.png",
+        "selectedIconPath": "/static/images/list-selected.png"
+      }
+    ],
+    "color": "#f6f7f7",
+    "backgroundColor": "#233238",
+    "selectedColor": "#ffffff"
+  }
+}

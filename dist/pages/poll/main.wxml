@@ -1,0 +1,1 @@
+<import src="../../components/poll$66ee6747" /><template is="poll$66ee6747" data="{{ ...$root['0'], $root }}"/>

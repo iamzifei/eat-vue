@@ -1,0 +1,12 @@
+<import src="select$618124eb" />
+<template name="poll$66ee6747">
+  <view class="_div data-v-acd0e878 page">
+    <view class="_div data-v-acd0e878 title">请推荐一个菜...</view>
+    <form bindsubmit="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_form data-v-acd0e878">
+      <template bindhandleZanSelectChange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="select$618124eb"></template>
+      <view class="_div data-v-acd0e878 button_section">
+        <button class="_button data-v-acd0e878 zan-btn zan-btn--danger" disabled="{{checked === -1}}" formType="submit">选好了</button>
+      </view>
+    </form>
+  </view>
+</template>
