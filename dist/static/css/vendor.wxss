@@ -1,0 +1,22 @@
+
+.card {
+  box-shadow: 0 6rpx 2rpx -4rpx rgba(0, 0, 0, 0.2), 0 4rpx 4rpx 0 rgba(0, 0, 0, 0.14), 0 2rpx 10rpx 0 rgba(0, 0, 0, 0.12);
+  overflow: auto;
+  position: relative;
+  z-index: 1;
+  border-radius: 4rpx;
+  background-color: #ffffff;
+  width: 600rpx;
+  height: 164rpx;
+}
+.content {
+  font-size: 34rpx;
+}
+.meta {
+  font-size: 24rpx;
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 16rpx;
+}

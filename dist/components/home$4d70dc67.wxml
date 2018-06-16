@@ -1,0 +1,24 @@
+<template name="home$4d70dc67">
+  <view class="_div data-v-dfcbfe38 page">
+    <image src="/static/images/wechat-logo-no-bg.png" class="_image data-v-dfcbfe38 logo"></image>
+    <view class="_div data-v-dfcbfe38 paper">
+      <view class="_div data-v-dfcbfe38 paper_title">佛系青年想吃...</view>
+      <view class="_div data-v-dfcbfe38 paper_swiper">
+        <swiper display-multiple-items="{{displayMultipleItems}}" next-margin="{{swiperMargin}}" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" bindchange="handleProxy"
+          bindanimationfinish="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_swiper data-v-dfcbfe38">
+          <view wx:key="index" key="{{index}}" wx:for="{{bases}}" wx:for-index="index" wx:for-item="item" class="_div data-v-dfcbfe38">
+            <swiper-item class="_swiper-item data-v-dfcbfe38">
+              <view bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" class="_div data-v-dfcbfe38 {{['base', 'base-' + index, [item.key === selectedBase ? 'active' : '']]}}">
+                <image src="{{item.url}}" class="_image data-v-dfcbfe38 slide_image"></image>
+                <view class="_div data-v-dfcbfe38 base_text">{{item.label}}</view>
+              </view>
+            </swiper-item>
+          </view>
+        </swiper>
+      </view>
+    </view>
+    <view class="_div data-v-dfcbfe38">
+      <button bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_button data-v-dfcbfe38 {{[  'zan-btn zan-btn--danger',  [selectedBase === '' ? 'hide' : '', loading ? 'zan-btn--loading' : '']]}}">帮我选菜</button>
+    </view>
+  </view>
+</template>

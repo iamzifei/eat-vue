@@ -1,0 +1,13 @@
+<template name="select$618124eb">
+  <radio-group class="_radio-group data-v-73fc900e zan-select__list" name="{{ name || componentId || ''}}" bindchange="handleProxy" data-component-id="{{componentId}}" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+    <label wx:key="index" key="{{index}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item" class="_label data-v-73fc900e">
+      <view class="_div data-v-73fc900e zan-cell">
+        <radio class="_radio data-v-73fc900e zan-select__radio" value="{{item.value}}" checked="{{item.value === checkedValue}}" />
+        <view class="_div data-v-73fc900e zan-cell__bd" style=" {{'padding-left' +  maohao +  item.padding +  'px;' +  'color' +  maohao +  (item.value === checkedValue && (activeColor || '#ff4444')) +  ';'}}">{{ item.name }}</view>
+        <view wx:if="{{item.value === checkedValue}}" class="_div data-v-73fc900e zan-cell__ft">
+          <icon type="success_no_circle" color="{{getColor}}" size="14" class="_icon data-v-73fc900e"></icon>
+        </view>
+      </view>
+    </label>
+  </radio-group>
+</template>
