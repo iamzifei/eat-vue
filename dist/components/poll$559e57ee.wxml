@@ -1,7 +1,0 @@
-<template name="poll$559e57ee">
-  <view class="_div data-v-05302fd1 zan-cell">
-    <view class="_div data-v-05302fd1 zan-cell__icon zan-icon zan-icon-checked" style="color:#38f;"></view>
-    <view class="_div data-v-05302fd1 zan-cell__bd">{{content}}</view>
-    <view class="_div data-v-05302fd1 zan-cell__ft">{{meta}}</view>
-  </view>
-</template>
